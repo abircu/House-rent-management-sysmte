@@ -140,7 +140,7 @@ justify-content: center;
 
     height: 80px;
     width: 70px;
-}
+} 
 .section-p1{
     padding: 40px 80px;
 }
@@ -811,6 +811,11 @@ img{
     background-color: #088178;
     color: #fff;
 }
+/* message btn */
+#form-details form button a{
+    color: #e1e1e1;
+    font-size: 15px;
+}
 #form-details .poeple div{
     padding-bottom: 25px;
     display: flex;
@@ -825,6 +830,7 @@ img{
 }
 #form-details .poeple div p{
     margin: 0;
+    padding-left: 10px;
     font-size: 13px;
     line-height: 25px;
 
@@ -835,4 +841,64 @@ img{
     font-weight: 600;
     color: black;
 }
+
+/* for message */
+.message{
+    position:relative;
+
+}
+.message h1{
+    position:absolute;
+    top: 260px;
+    left: 480px;
+    text-align: center;
+    color:hsl(154, 88%, 32%);
+}
+.message h3{
+    position:absolute;
+    bottom: 500px;
+    left: 150px;
+    text-align: center;
+    color: #465b52;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.message img{
+    width: 100%;
+    height: auto;
+}
+.singel-pro-details button a{
+    color: #e1e1e1;
+    font-size: 15px;
+}
+/* for rent */
+.rent{
+    position:relative;
+
+}
+.rent h1{
+    position:absolute;
+    font-size: 60px;
+    top: 260px;
+    left: 480px;
+    text-align: center;
+    color:hsl(154, 88%, 32%);
+}
+.rent h3{
+    position:absolute;
+    bottom: 500px;
+    left: 180px;
+    text-align: center;
+    color: #465b52;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rent img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
 
